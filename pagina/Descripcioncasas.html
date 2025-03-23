@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Casa de Lujo - Brisas del Mar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Fondo y estilo general de la página */
+        body {
+            background-color: #f0f8ff; /* Fondo claro */
+        }
+
+        /* Fondo para la sección de contenido */
+        .container {
+            background-color: #add8e6; /* Fondo azul claro para la sección */
+            border-radius: 15px; /* Bordes redondeados */
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        /* Estilo del título */
+        h2 {
+            color: #1e90ff; /* Azul oscuro */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra de texto */
+        }
+
+        /* Estilo del texto */
+        p, h4, h5 {
+            font-size: 18px;
+            color: #333; /* Color oscuro similar al negro */
+        }
+
+        /* Estilo de la imagen pequeña */
+        .img-thumbnail {
+            width: 150px;
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid #1e90ff; /* Contorno azul alrededor de la imagen */
+        }
+
+        /* Estilo del botón */
+        .btn-primary {
+            background-color: #4682b4; /* Azul acero */
+            border-color: #4682b4; /* Igual color en los bordes */
+        }
+
+        .btn-primary:hover {
+            background-color: #5f9ea0; /* Azul verdoso para el hover */
+            border-color: #5f9ea0; /* Igual color en el borde del hover */
+        }
+
+        /* Eliminar puntos de la lista */
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        /* Estilo de los elementos de la lista */
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        /* Estilo de la imagen del modal */
+        .modal-body img {
+            width: 100%;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container text-center">
+        <h2>¡Tu Nuevo Hogar en Brisas del Mar Residencial te Espera!</h2>
+
+        <p><strong>Casa en Venta – Modelo Perla</strong></p>
+
+        <!-- Imagen pequeña con contorno y modal -->
+        <div class="row justify-content-center mb-4">
+            <div class="col-md-3">
+                <img src="imagenes/especificaciones.jpg.JPG" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#imageModal">
+            </div>
+        </div>
+
+        <!-- Modal con la imagen grande -->
+        <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="imagenes/especificaciones.jpg.JPG" alt="Imagen grande">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <ul>
+            <li><strong>✅ Superficie total:</strong> 146.50 m²</li>
+            <li><strong>✅ Antes:</strong> $3,076,800.00</li>
+            <li><strong>✅ Precio especial:</strong> $2,820,000.00</li>
+            <li><strong>✅ Vigencia:</strong> 2025</li>
+            <li><strong>✅ ¡Aceptamos todos los créditos!</strong></li>
+        </ul>
+
+        <h4>Un Espacio para Ti y Tu Familia</h4>
+        <p>Disfruta de una casa moderna con acabados de primera, ubicada en un exclusivo residencial con amenidades pensadas para tu comodidad.</p>
+
+        <h5>Distribución:</h5>
+        <ul>
+            <li><strong>🏡 Planta baja:</strong> Cochera, sala, comedor, cocina, patio de servicio, ½ baño y terraza.</li>
+            <li><strong>🛏️ Planta alta:</strong> Recámara principal con vestidor y baño, dos recámaras secundarias y un baño compartido.</li>
+        </ul>
+
+        <p><strong>🌊 Vive cerca de la playa y disfruta de un ambiente tranquilo y seguro.</strong></p>
+
+        <h5>📍 Ubicación:</h5>
+        <p>Av. Lázaro Cárdenas del Río, Libramiento a Dos Bocas, 86600 Paraíso, Tabasco.</p>
+
+        <h5>📞 ¡Contáctame para más información!</h5>
+        <p><strong>📲</strong> 9932464419 (Adalberto Olán)</p>
+
+        <p><strong>📌</strong> También puedes visitarnos en nuestras oficinas y preguntar por tu asesor de ventas Adalberto Olán o contactarlo por WhatsApp para agendar una visita sin compromiso. ¡Aprovecha esta gran oportunidad!</p>
+
+        <a href="pagina.html" class="btn btn-primary mt-4">Volver</a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
